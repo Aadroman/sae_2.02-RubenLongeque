@@ -43,8 +43,8 @@ endif::[]
 
 === De la solution...
 
-* LAST NAME : DOE
-* First name : John
+* LAST NAME : LONGEQUE
+* First name : Rubén
 * TD group : 
 - [ ] 1
 - [x] 2
