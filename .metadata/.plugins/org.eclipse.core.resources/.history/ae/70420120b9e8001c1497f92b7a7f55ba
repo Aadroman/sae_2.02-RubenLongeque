@@ -1,0 +1,54 @@
+package eraser;
+
+
+import static org.junit.Assert.assertEquals;
+
+import java.io.FileReader;
+import java.io.IOException;
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        //System.out.println(Eraser.erase(args[1]));
+
+        //lie le fichier à l'erase et le fichier qu'on doit obtenir après l'algo
+        long startTime = System.currentTimeMillis();
+
+        FileReader fr = new FileReader("C:\\Users\\ruben\\github-classroom\\IUT-Blagnac\\sae02-02-Aadroman\\src\\main\\java\\eraser\\textE.txt");
+
+        String texteE = "";
+        for(int i=fr.read();i!=-1; i=fr.read()){
+            texteE += (char) i;
+        }
+
+        fr.close();
+
+        FileReader fr2 = new FileReader("C:\\Users\\ruben\\github-classroom\\IUT-Blagnac\\sae02-02-Aadroman\\src\\main\\java\\eraser\\textS.txt");
+        String texteS = "";
+        for(int i=fr.read();i!=-1; i=fr.read()){
+            texteS += (char) i;
+        }
+
+        fr2.close();
+
+        long endTime = System.currentTimeMillis();
+        System.out.println("Temps pris pour lire un fichier : "+(endTime-startTime)+" ms");
+
+        //teste 15 fois l'algo
+        long[] res = new long[100];
+
+        for(int i=0; i<res.length; i++){
+            startTime = System.currentTimeMillis();
+
+            String texte = Eraser.erase(texteE);
+
+            endTime = System.currentTimeMillis();
+
+            System.out.println("Temps que ça prend : "+(endTime-startTime)+" ms");
+
+            res[i] = endTime - startTime;
+
+            assertEquals(texteS,texte);
+        }
+    }
+}
