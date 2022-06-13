@@ -1,6 +1,6 @@
-package eraser;
+package analyse;
 
-public class Eraser {
+public class EraserSimplicite85 {
     public static String erase(String chaine) {
          String chaineSansEspace = "";
 	        

@@ -1,6 +1,6 @@
-package eraser;
+package analyse;
 
-public class Eraser {
+public class EraserSimplicite111 {
     public static String erase(String str) {
         StringBuilder sb = new StringBuilder();
         int i = 0;

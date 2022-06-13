@@ -1,4 +1,4 @@
-package eraser;
+package analyse;
 
 import java.util.ArrayList;
 

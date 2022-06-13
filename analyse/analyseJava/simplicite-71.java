@@ -1,6 +1,6 @@
-package eraser;
 
-public class Eraser {
+
+public class EraserSimplicite71 {
     public static String erase(String str) {
         //throw new UnsupportedOperationException("Unimplemented");
         String res = "";

@@ -1,6 +1,10 @@
+package analyse;
+
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import org.junit.runners.JUnit4;
+
+import eraser.Eraser;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -39,7 +43,7 @@ public class testJava {
         for(int i=0; i<resultat.length; i++){
             tempsDebut = System.currentTimeMillis();
 
-            String texte = Eraser.erase(texteEntree);
+            String texte = EraserSimplicite71.erase(texteEntree);
 
             tempsFin = System.currentTimeMillis();
 
