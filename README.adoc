@@ -152,8 +152,8 @@ WARNING: Les répertoires et fichiers existants devront être complétés et mis
 
 === Pré-requis
 
-- Java v.x.y.z
-- ...
+- Java 8 ou plus
+- Pyhton 3
 
 === Reproductibilité
 
