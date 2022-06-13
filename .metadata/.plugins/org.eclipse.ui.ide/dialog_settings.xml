@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+<<<<<<< HEAD
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="154"/>
+		<item key="DIALOG_Y_ORIGIN" value="134"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+=======
 	<section name="ExternalProjectImportWizard">
 	</section>
 	<section name="SmartImportWizard">
@@ -10,6 +18,7 @@
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
 			<item value="C:\Users\ruben\github-classroom\IUT-Blagnac\sae2-02-Aadroman"/>
 			<item value="C:\Users\ruben\git\sae2022-bank-4b03"/>
+>>>>>>> c3daaa2942c44dd7ff8c866dcd3f1d3f408f2b7e
 		</list>
 	</section>
 </section>

@@ -138,8 +138,7 @@ Vous utiliserez le dépôt initial qui vous aura été attribué via classroom p
 [options="header"]
 |==========================================================================
 | #    | lien                                        | langage  | catégorie
-| 1    | link:src/main/java/eraser/Eraser.java[ici]  | Java     | Simplicité
-| ...  | ...                                         | ...      | ...      
+| 1    | link:src/main/java/eraser/Eraser.java[ici]  | Java     | Simplicité    
 |==========================================================================
 
 === Phase 2 (deadline : **vendredi 17 juin 2022** à minuit)
@@ -153,8 +152,8 @@ WARNING: Les répertoires et fichiers existants devront être complétés et mis
 
 === Pré-requis
 
-- Java v.x.y.z
-- ...
+- Java 8 ou plus
+- Pyhton 3
 
 === Reproductibilité
 
