@@ -1,4 +1,4 @@
-from solution import erase
+from analysePython import erase
 import codewars_test as test
 
 @test.describe('Sample tests')
