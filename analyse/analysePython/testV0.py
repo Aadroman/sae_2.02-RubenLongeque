@@ -1,4 +1,4 @@
-from efficacite64 import erase
+from sobriete162 import erase
 import codewars_test as test
 
 @test.describe('Sample tests')

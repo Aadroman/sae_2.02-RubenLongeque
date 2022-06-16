@@ -1,5 +1,5 @@
-def bonmot2(mot):
-
+def erase(mot):
+    #tour = 0
     if mot == " " or mot == "":
         return ("")
     else:
@@ -15,10 +15,15 @@ def bonmot2(mot):
         while i<taille-1:
             if mot[i] == " ":
                 if mot[i + 1] != " " and mot[i - 1] != " ":
+                    #tour+=1
                     mot = "  " + mot[:i] + "" + mot[i + 1:]
                     ajout += 2
                     taille+=1
             i+=1
+            #tour+=1
 
+        #print(tour)
         mot = mot[(ajout):]
         return(mot)
+
+

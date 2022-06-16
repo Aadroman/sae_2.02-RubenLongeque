@@ -27,12 +27,14 @@ def erase(message: string):
         # Be sure to never lose your partner of life ! 
         
         #   Who am I ?
+    tour = 0
     if message == "": # Am I even real ? No...
         return message # So I just return myself : the void
     
         #   So I know that I'm not the void, am I space ?
     if message[0] != ' ': # Surely not, you are discussing to the wrong person
         return message[0] + erase(message[1:]) # I enter the Valallah and the purge continues !
+        tour+=1
 
         #   Yeah it's me ! The famous and beautiful space char ;)
     else:
@@ -41,8 +43,21 @@ def erase(message: string):
                     # Hehe somebody is behind, that's nice
                 if message[1] == ' ': # IT'S IT ! MY SPACE LOVER
                     return '  ' + erase(message[2:]) # WE ENTER THE VALHALLA TOGETHER ! And the purge continues (next episode)...
+                    tour+=1
                 else: # Oh no, I've lost my space love ...
                     return erase(message[1:]) # I cannot enter, i'll find it before ! Do not wait me ! And let the purge continue without me !
+                    tour+=1
 
         else: # Oh no, I've lost my space love ... Nobody is behind me ...
             return '' # I cannot enter, i'll find it before ! Do not wait me !
+            tour+=1
+    print(tour)
+def main():
+      fichier = open("C:\\Users\\ruben\\Desktop\\sae2-02-RubenLongeque4B\\src\\texteE.txt", "r")
+      texte =""
+      for i in fichier.read():
+        texte+=i
+      fichier.close()
+      erase(texte)
+
+main()

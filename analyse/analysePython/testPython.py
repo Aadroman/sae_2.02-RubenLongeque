@@ -1,7 +1,7 @@
 import time
 from unittest import result
 import codewars_test as test
-from efficacite64 import erase
+from sobriete162 import erase
 from codecarbon import track_emissions
 
 @track_emissions(offline=True, country_iso_code="FRA")
