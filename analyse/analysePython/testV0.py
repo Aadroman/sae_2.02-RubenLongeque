@@ -1,4 +1,4 @@
-from analysePython import erase
+from efficacite64 import erase
 import codewars_test as test
 
 @test.describe('Sample tests')
@@ -18,3 +18,4 @@ def sample_tests():
     @test.it("erase: 'Cou cou  J M  B'")
     def test4():
         test.assert_equals(erase('Cou cou  J M  B'), 'Coucou  JM  B')
+
