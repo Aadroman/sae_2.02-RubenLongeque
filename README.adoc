@@ -158,8 +158,9 @@ WARNING: Les répertoires et fichiers existants devront être complétés et mis
 === Reproductibilité
 
 - Pour reproduire mon analyse :
-. Installez Joular poutr Java, CodeCarbon pour Python
+. Installez Joular pout Java, CodeCarbon pour Python
 . Lancez Invite de commande pour Joular ou IDE capable d'interpréter du Python pour CodeCarbon
+. Lancez Replit pour C
 
 === Références
 
