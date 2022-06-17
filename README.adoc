@@ -158,14 +158,13 @@ WARNING: Les répertoires et fichiers existants devront être complétés et mis
 === Reproductibilité
 
 - Pour reproduire mon analyse :
-. Installez X
-. Lancez Y
-. ...
+. Installez Joular poutr Java, CodeCarbon pour Python
+. Lancez Invite de commande pour Joular ou IDE capable d'interpréter du Python pour CodeCarbon
 
 === Références
 
-- link:http://xyz[Mon super outil XYZ]
-- ...
+- link:https://gitlab.com/joular/joularjx[Joular]
+- link:https://github.com/mlco2/codecarbon[CodeCarbon]
 
 == Généralités, notation de la SAÉ et résultat du concours
 
